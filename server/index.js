@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 4545;
 
-app.listen(4545, () => console.log(`Machine override at Cauldron Port ${port}`));
+app.listen(port, () => console.log(`Machine override at Cauldron Port ${port}`));
